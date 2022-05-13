@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/entry_nav_graph"
+    app:startDestination="@id/entryListShowFragment">
+
+    <fragment
+        android:id="@+id/entryListShowFragment"
+        android:name="com.zzz.moneystatistics.fragment.EntryListShowFragment"
+        android:label="fragment_entry_list_show"
+        tools:layout="@layout/fragment_entry_list_show" >
+        <action
+            android:id="@+id/action_entryListShowFragment_to_entryModFragment"
+            app:destination="@id/entryModFragment"
+            app:enterAnim="@anim/fragment_fade_enter"
+            app:exitAnim="@anim/fragment_fade_exit" />
+        <action
+            android:id="@+id/action_entryListShowFragment_to_entryStatisticsFragment"
+            app:destination="@id/entryStatisticsFragment" />
+        <action
+            android:id="@+id/action_entryListShowFragment_to_entryMultiEditFragment"
+            app:destination="@id/entryMultiEditFragment" />
+        <action
+            android:id="@+id/action_entryListShowFragment_to_entryDateSwitchingFragment"
+            app:destination="@id/entryDateSwitchingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/entryModFragment"
+        android:name="com.zzz.moneystatistics.fragment.EntryModFragment"
+        android:label="fragment_entry_mod"
+        tools:layout="@layout/fragment_entry_mod" >
+        <action
+            android:id="@+id/action_entryModFragment_to_entryListShowFragment"
+            app:destination="@id/entryListShowFragment"
+            app:enterAnim="@anim/fragment_fade_enter"
+            app:exitAnim="@anim/fragment_fade_exit" />
+        <argument
+            android:name="event"
+            app:argType="string" />
+        <argument
+            android:name="category"
+            app:argType="string" />
+        <argument
+            android:name="cost"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/entryStatisticsFragment"
+        android:name="com.zzz.moneystatistics.fragment.EntryStatisticsFragment"
+        android:label="fragment_entry_statistics"
+        tools:layout="@layout/fragment_entry_statistics" >
+        <action
+            android:id="@+id/action_entryStatisticsFragment_to_entryListShowFragment"
+            app:destination="@id/entryListShowFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/entryMultiEditFragment"
+        android:name="com.zzz.moneystatistics.fragment.EntryMultiEditFragment"
+        android:label="EntryMultiEditFragment" >
+        <action
+            android:id="@+id/action_entryMultiEditFragment_to_entryListShowFragment"
+            app:destination="@id/entryListShowFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/entryDateSwitchingFragment"
+        android:name="com.zzz.moneystatistics.fragment.EntryDateSwitchingFragment"
+        android:label="fragment_entry_date_switching"
+        tools:layout="@layout/fragment_entry_date_switching" >
+        <action
+            android:id="@+id/action_entryDateSwitchingFragment_to_entryListShowFragment"
+            app:destination="@id/entryListShowFragment" />
+        <action
+            android:id="@+id/action_entryDateSwitchingFragment_to_entryModFragment"
+            app:destination="@id/entryModFragment" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">zzz记账</string>
+    <string name="initial_date">1970-01-01</string>
+    <string name="id">zzz账目id: </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

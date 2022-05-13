@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navInstallmentBt"
+        android:title="添加分期付款"/>
+    <item
+        android:id="@+id/navExportCurrentBt"
+        android:title="导出当前到剪贴板"/>
+    <item
+        android:id="@+id/navExportAllBt"
+        android:title="导出所有到剪贴板"/>
+    <item
+        android:id="@+id/navExportAllStdBt"
+        android:title="导出所有到文件"/>
+    <item
+        android:id="@+id/navImportAllStdBt"
+        android:title="导入所有从文件"/>
+    <item
+        android:id="@+id/navSetMainPageBackgroundBt"
+        android:title="自定义主页背景"/>
+    <item
+        android:id="@+id/navSetMenuBackgroundBt"
+        android:title="自定义菜单背景"/>
+    <item
+        android:id="@+id/navImportStandardBt"
+        android:title="从剪贴板标准导入"/>
+    <item
+        android:id="@+id/navImportCasualBt"
+        android:title="从剪贴板日常导入"/>
+    <item
+        android:id="@+id/navAboutBt"
+        android:title="关于"/>
+    <item
+        android:id="@+id/navExitBt"
+        android:title="退出"/>
+</menu>

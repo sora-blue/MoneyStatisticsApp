@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.EntryStatisticsFragment">
+
+    <!--1.show total cost each year-->
+    <!--2.inside there is sth showing total cost each month-->
+    <!--3.click to show categories-->
+    <!--4.click categories, and a fragment popped out to show concrete costs-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/totalRv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

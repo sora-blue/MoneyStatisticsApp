@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="zzz记账v0.9\n大二软设I作品\nDesigned &amp; Constructed by zzz."
+        android:textColor="@color/black"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Only supports &quot;yyyy-MM-dd&quot;."
+        android:textSize="16sp"/>
+
+    <TextView
+    android:layout_margin="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Not supports currency exchange yet."
+    android:textSize="16sp"/>
+
+
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&quot;Casual&quot; form is as follows: \n yyyy-MM&lt;-dd&gt; \n event cost\n event cost\n event cost\n Each line counts as an independent entry with the same date.\n"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&quot;Standard&quot; form is what you get when exporting data to clipboard."
+        android:textSize="16sp"/>
+
+
+</LinearLayout>

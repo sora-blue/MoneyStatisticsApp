@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/multi_nav_graph"
+    app:startDestination="@id/multiBlankFragment">
+
+    <fragment
+        android:id="@+id/multiBlankFragment"
+        android:name="com.zzz.moneystatistics.fragment.MultiBlankFragment"
+        android:label="fragment_multi_blank"
+        tools:layout="@layout/fragment_multi_blank" >
+        <action
+            android:id="@+id/action_multiBlankFragment_to_multiDeleteFragment"
+            app:destination="@id/multiDeleteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/multiDeleteFragment"
+        android:name="com.zzz.moneystatistics.fragment.MultiDeleteFragment"
+        android:label="MultiDeleteFragment" />
+</navigation>

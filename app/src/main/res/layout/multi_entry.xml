@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <CheckBox
+        android:id="@+id/multiEntryCb"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/multiEntryIndexTv"
+        android:text="0"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:background="#66ccff"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="5dp"
+        android:layout_margin="3dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="2"/>
+
+    <TextView
+        android:id="@+id/multiEntryCategoryTv"
+        android:text="饮食"
+        android:background="@color/purple_200"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="5dp"
+        android:layout_margin="3dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="3"/>
+
+    <TextView
+        android:id="@+id/multiEntryEventTv"
+        android:text="去食堂"
+        android:textColor="@color/white"
+        android:background="@color/purple_500"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="5dp"
+        android:layout_margin="3dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/multiEntryCostTv"
+        android:text="10.00"
+        android:textColor="@color/white"
+        android:background="@color/purple_700"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="5dp"
+        android:layout_margin="3dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
